@@ -2,5 +2,15 @@
     "appSecret": "",
     "pageAccessToken": "",
     "validationToken": "",
-    "serverURL": ""
+    "serverURL": "",
+    "buildpacks"
+    :
+    [
+        {
+            "url": "https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
 }
